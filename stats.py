@@ -49,7 +49,7 @@ def generate_html(user_info, total_commits):
         <p><strong>Biography:</strong> {user_info.get('bio', 'N/A')}</p>
         <p><strong>Followers:</strong> {user_info.get('followers', 'N/A')}</p>
         <p><strong>Following:</strong> {user_info.get('following', 'N/A')}</p>
-        <p><strong>Public Repos:</strong> {user_info.get('public_repos', 'N/A') + 100}</p>
+        <p><strong>Public Repos:</strong> {user_info.get('public_repos', 'N/A')}</p>
         <p><strong>Total Commits:</strong> {total_commits}</p>
         <p><strong>Location:</strong> {user_info.get('location', 'N/A')}</p>
         <p><a href="{user_info.get('html_url', '#')}">View Profile on GitHub</a></p>
